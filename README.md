@@ -1,8 +1,8 @@
 # 資料分頁 練習實作
 
-將實體json檔資料搭配Bootstrap 表格於前端頁面顯示，
+將實體json檔資料搭配Bootstrap表格 於前端頁面顯示
 
-並透過jquery+ Bootstrap 分頁樣式製作分頁按鈕
+並透過jquery+ Bootstrap分頁樣式 製作分頁按鈕
 
 流程:
 1. 建構網站基本樣式(搭配Bootstrap)
