@@ -91,7 +91,7 @@
                 var end = page*numPerPage           //每頁最後一筆
                 var data = obj.slice(first,end)     //每頁要顯示的資料
                 var newdata = data.map((item, index) =>{
-                    return '<tr><td>'+item.StationName+'</th><td>'+item.District+'</td><td>'+item.Address+'</td><td>'+item.Capacity+'</td></tr>'
+                    return '<tr><td>'+item.StationName+'</td><td>'+item.District+'</td><td>'+item.Address+'</td><td>'+item.Capacity+'</td></tr>'
                 })
                 $("#tablebody").html(newdata);
                 
